@@ -243,11 +243,17 @@ let groups = [
 
 // console.log(classes)
 
-//ERROR
+
 // classes.sort(function (a, b) {
-//     a = a.name;
-//     b = b.name;
-//     return a - b;
+//     if (a.name > b.name) {
+//         return 1;
+//     }
+//     if (a.name < b.name) {
+//         return -1;
+//     } else {
+//         return 0;
+//     };
+
 // })
 
 // console.log(classes)
